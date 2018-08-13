@@ -9,7 +9,11 @@ tiposComp = {
 "factura b" : "006",
 "factura c" : "011",
 "ticket-factura a" : "081",
-"ticket-factura b" : "082"
+"ticket-factura b" : "082",
+"n/c a" : "003",
+"n/c b" : "008",
+"n/d a" : "002",
+"n/d b" : "007"
 }
 
 tiposArch = [
