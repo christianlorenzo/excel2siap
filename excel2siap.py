@@ -141,13 +141,13 @@ def exportar():
                     linea += convImp(0)
 
                     #exportacion de alicuota
-                    if 0 < datos.loc[i, 'J'] < 99999999:
+                    if -99999999 < datos.loc[i, 'J'] < 99999999:
                         archivoAlic.write(lineaAlic(linea, datos.loc[i, 'J'],
                         datos.loc[i, 'M'], "0004") + "\r\n")
-                    if 0 < datos.loc[i, 'K'] < 99999999:
+                    if -99999999 < datos.loc[i, 'K'] < 99999999:
                         archivoAlic.write(lineaAlic(linea, datos.loc[i, 'K'],
                         datos.loc[i, 'N'], "0005") + "\r\n")
-                    if 0 < datos.loc[i, 'L'] < 99999999:
+                    if -99999999 < datos.loc[i, 'L'] < 99999999:
                         archivoAlic.write(lineaAlic(linea, datos.loc[i, 'L'],
                         datos.loc[i, 'O'], "0006") + "\r\n")
 
